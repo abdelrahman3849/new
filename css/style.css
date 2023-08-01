@@ -1,0 +1,245 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    color: black;
+    font-family: sans-serif;
+}
+h2{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+    text-shadow:1px 1px 5px black;
+}
+.hero-area{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.hero-area::after{
+    content: "";
+    height: 430px;
+    width: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 22%;
+    right: 94px;
+}
+.navbar ul li a{
+    color: white;
+    padding: 0px;
+    margin: 0 20px;
+}
+/* slides */
+.custom_carousel-control{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+}
+.carousel-control-prev,
+.carousel-control-next{
+
+background-color: white;
+ width: 45px;
+height: 45px; 
+border-radius: 50%;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+
+margin: 10px 0;
+
+
+
+
+
+}
+
+/* about */
+.about h2{
+    position: relative;
+    text-shadow:1px 1px 5px black;
+}
+.about h2::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 1px;
+    width: 220px;
+    bottom: 9%;
+    left: 1px;
+}
+.about .btn{
+    background-color: rgb(0, 231, 193);
+    margin:30px 0;
+    padding: 10px 40px;
+}
+/* service */
+.service{
+    background-color: rgba(194, 196, 196, 0.11);
+}
+.service h2{
+    position: relative;
+}
+.service h2::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 1px;
+    width: 308px;
+    bottom: -22%;
+    left: 245;
+}
+.service .heart{
+    padding: 9px 0;
+}
+.service button{
+    border:1px solid #e93f1a;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    color: #e93f1a;
+    font-weight: bold;
+    background-color: rgba(0, 255, 255, 0.158);
+}
+.service .btn{
+    width: 200px;
+    background-color:#e93f1a;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 120px;
+}
+.service .btn:hover{
+    background-color: transparent;
+    border:1px solid #e93f1a;
+    color:#e93f1a;
+}
+/* contact */
+.contact h2{
+    position: relative;
+}
+.contact h2::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 1px;
+    width: 380px;
+    bottom: 22%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+
+
+
+
+.contact input , textarea{
+    width: 100%;
+    
+    padding: 8px 15px;
+    
+    display:block;
+    background-color:  #1c1b2d;
+    color: white;
+    border: none;
+    outline: none;
+}
+.contact input{
+    height: 50px;
+    
+}
+.contact ::placeholder{
+    color: rgba(255, 255, 255, 0.671);
+    padding: 4px;
+}
+.contact input:active{
+    border: none;
+    outline: none;
+    
+}
+.contact .btn{
+    background-color:#e93f1a ;
+    color: white;
+
+}
+.contact .btn:hover{
+    background-color: white;
+    color: #e93f1a;
+    border:1px solid #e93f1a ;
+}
+/* end slide */
+.Testimonial h2{
+    position: relative;
+}
+.Testimonial h2::before{  
+      content: "";
+    background-color: black;
+    position: absolute;
+    height: 1px;
+    width: 231px;
+    bottom: 22%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+.carousel .carousel-indicatore{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.carousel .carousel-indicatore .indi{
+    background-color: rgb(224, 9, 224);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+ 
+
+}
+ .carousel-indicatore .indi:active,:visited{
+    background-color: black;
+}
+.carousel .cardd .pra{
+    background-color:  #e93f1a;
+    color: white;
+    position: relative;
+    line-height: 30px;
+}
+.carousel .cardd .pra::before{
+    content: "\f10d";
+    top: -6px;
+    left: -30px;
+
+}
+.carousel .cardd .pra::after{
+    content: "\f10e";
+    top: -6px;
+    left: -30px;
+
+}
+/* footer contact */
+.conta {
+    margin-top: 50px;
+    background-color: rgba(0, 141, 129, 0.178);
+}
+.conta .media .img:hover{
+    filter: grayscale(100);
+}
+.conta h2{
+    position: relative;
+}
+.conta h2::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 1px;
+    width: 231px;
+    bottom: -22%;
+    left: 50%;
+    transform: translate(-50%);
+}
